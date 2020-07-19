@@ -9,7 +9,7 @@ function setCustomCacheControl (res, path) {
 
 app.use(express.static('public', {
    // setHeaders: setCustomCacheControl,
-    // maxAge: cacheTime,
+  // maxAge: cacheTime,
 }));
 
 app.listen(3002, () => console.log('Server listen on port 3002...'));
